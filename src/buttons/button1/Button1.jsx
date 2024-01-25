@@ -12,7 +12,7 @@ const Button1 = () => {
         <span className="absolute top-0 right-0 block w-0.5 h-full button1_span2" />
         <span className="absolute bottom-0 right-0 block w-full h-0.5 button1_span3" />
         <span className="absolute bottom-0 left-0 block w-0.5 h-full button1_span4" />
-        BUTTON ON
+        BUTTON ONE
       </button>
     </div>
   );
