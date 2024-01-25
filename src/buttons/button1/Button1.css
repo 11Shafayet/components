@@ -1,0 +1,58 @@
+button {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.button1_span1 {
+  background: linear-gradient(to right, #00262b, #17ecff);
+  animation: animate1 2s linear infinite;
+}
+.button1_span2 {
+  background: linear-gradient(to bottom, #00262b, #17ecff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+.button1_span3 {
+  background: linear-gradient(to left, #00262b, #17ecff);
+  animation: animate3 2s linear infinite;
+}
+.button1_span4 {
+  background: linear-gradient(to top, #00262b, #17ecff);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

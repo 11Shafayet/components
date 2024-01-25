@@ -1,0 +1,25 @@
+.button4_span1 {
+  animation: button4_span1 4s linear infinite;
+}
+@keyframes button4_span1 {
+  0%,
+  100% {
+    transform: translate(-100%, -100%);
+  }
+  50% {
+    transform: translate(150%, 150%);
+  }
+}
+
+.button4_span2 {
+  animation: button4_span2 4s linear infinite;
+}
+@keyframes button4_span2 {
+  0%,
+  100% {
+    transform: translate(80%, 80%);
+  }
+  50% {
+    transform: translate(-120%, -120%);
+  }
+}

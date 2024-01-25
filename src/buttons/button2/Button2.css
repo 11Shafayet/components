@@ -1,0 +1,15 @@
+.button2_glow {
+  animation: glowAnimation 3s linear infinite;
+  background-color: red !important;
+}
+
+@keyframes glowAnimation {
+  0%,
+  100% {
+    box-shadow: none;
+  }
+
+  50% {
+    box-shadow: 0 0 111px rgba(255, 23, 87, 1);
+  }
+}

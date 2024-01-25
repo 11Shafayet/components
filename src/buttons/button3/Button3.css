@@ -1,0 +1,28 @@
+.button3 {
+  box-shadow: 0 0 11px rgba(255, 255, 255, 0.05);
+}
+.button3_span1 {
+  animation: button3_span1 5s linear infinite;
+}
+@keyframes button3_span1 {
+  0%,
+  100% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(300%);
+  }
+}
+
+.button3_span2 {
+  animation: button3_span2 5s linear infinite;
+}
+@keyframes button3_span2 {
+  0%,
+  100% {
+    transform: translateX(00%);
+  }
+  50% {
+    transform: translateX(-300%);
+  }
+}
